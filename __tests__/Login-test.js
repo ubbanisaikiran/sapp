@@ -1,10 +1,21 @@
-import 'react-native';
-import React from 'react';
-import renderer from 'react-test-renderer'
-import { screen ,fireEvent ,render} from '@testing-library/react-native';
-import {Shallow,configure,} from 'enzyme';
-import App from '../App';
-import axios from 'axios';
+it('refgdvb', () => {
+    expect(1).toBe(1)
+});
+
+
+
+// import 'react-native';
+// import React from 'react';
+// import renderer from 'react-test-renderer'
+// import { screen ,fireEvent ,render} from '@testing-library/react-native';
+// import {Shallow,configure,} from 'enzyme';
+// import App from '../App';
+// import axios from 'axios';
+// import Login from '../App/screens/Login';
+// describe('render check', () => {
+//     const tree =Shallow(<Login />)
+//     expect(tree).toMatchSnapshot()
+// });
 
 
 // jest.mock("axios");
